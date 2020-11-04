@@ -1,3 +1,3 @@
 # cocoa clone
 
-CSS test
+HTML and CSS testing
