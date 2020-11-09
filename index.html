@@ -27,9 +27,9 @@
         <p class="welcome-header__text">if you have a Kokoa Account, log in with your email or phone number</p>
     </header>
 
-    <form id="login-form">
-        <input type="text" placeholder="Email or phone number"/>
-        <input type="password" placeholder="Password"/>
+    <form action="friends.html" method="get" id="login-form"> <!--action은 어떤 페이지로 데이터를 보낼지 지정할수있음, method는 post와 get이 있음,  보안상 아이디와 비밀번호를 get방식을 사용하면안됨 -->
+        <input name="username" type="text" placeholder="Email or phone number"/>
+        <input name="password" type="password" placeholder="Password"/>
         <input type="submit" value="Log in" />
         <input type="submit" value="Sign Up" />
         <a href="#">Find Kokoa Account or Password</a>
