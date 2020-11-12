@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="CSS/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings -  kakaoTalk</title>
+</head>
+<body>
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No service</span>
+            <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+            <span>11%</span>
+            <i class="fas fa-battery-full fa-2x"></i>
+            <i class="fas fa-bolt"></i>
+        </div>
+    </div>
+
+    <header class="alt-header">
+        <div class="alt-header__column">
+            <i class="fas fa-angle-left fa-3x"></i>
+        </div>
+        <div class="alt-header__column">
+            <h1 class="alt-header__title">Settings</h1>
+        </div>
+        <div class="alt-header__column">
+            <i class="fas fa-search fa-2x"></i>
+        </div>
+    </header>
+
+    <main class="main-screen">  
+        <ul class="settings-list">
+            <li class="Settings__settings">
+                <i class="fas fa-bullhorn"></i><span>Notices</span>
+            </li>
+            <li class="Settings__settings">
+                <i class="fas fa-flask"></i><span>Kokoa Lab</span>
+            </li>
+            <li class="Settings__settings">
+                <i class="fas fa-info-circle"></i><span>Version</span>
+            </li>
+        </ul>  
+       
+    </main>
+    <!--nav>ul>li*4 라고 치면 자동완성-->
+    <nav class="nav">
+        <ul class="nav__list">
+            <!-- 모든 link들은 기본값으로 blue 색상을 가지고있음--> 
+            <li class="nav__btn"><a class="nav__link" href="friends.html"><i class="far fa-user fa-2x"></i>
+            <li class="nav__btn"><a class="nav__link" href="chats.html">
+                <span class="nav__notification badge">1</span>
+                <i class="far fa-comment fa-2x"></i></a></li>
+            <li class="nav__btn"><a class="nav__link" href="find.html"><i class="fas fa-search fa-2x"></i></a></li>
+            <li class="nav__btn"><a class="nav__link" href="more.html">
+                <span class="nav__optiondot">1</span>
+                <i class="fas fa-ellipsis-h fa-2x"></i></a></li>
+        </ul>
+    </nav>
+    <script src="https://kit.fontawesome.com/26f47a5cc0.js" crossorigin="anonymous"></script>
+</body>
+</html>
