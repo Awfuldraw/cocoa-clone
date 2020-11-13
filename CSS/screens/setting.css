@@ -4,9 +4,13 @@
   font-size: 18px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 .Settings__settings i {
   margin-right: 20px;
   font-size: 22px;
   opacity: 0.8;
+}
+.setting__setting-column:last-child {
+  opacity: 0.5;
 }
